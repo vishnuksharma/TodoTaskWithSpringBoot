@@ -1,12 +1,18 @@
 ## About
 
-This is a sample project which contains a login-module. 
-This module exposes a rest API which can be used to authenticate & authorize a particular user.
+This is a Spring Boot project which contains a Todo task module services. 
+This module exposes a rest API which can be use.
 
-The module is written in java using SpringBoot, SpringRest & SpringData. 
-MongoDB stores the details required for user authetication.
-Apache Shiro is used which has an inbuilt Security Manager for managing various aspects of user authentication.
+The module is written in java using SpringBoot, SpringRest & SpringData
+MongoDB for data storage.
 
 ## Project Setup
 
-This project can be built using Maven. The database configuration should be done in the application.properties file present within the project in the /src/main/resources folder.
+`1.` This project can be built using Maven. The database configuration should be done in the application.properties file present within the project in the /src/main/resources folder.
+
+`2.` Download zip file and import into STS as existing maven project. update project dependencies.
+
+`3.` Download war file and deploy file into server.
+`4.` Also implemented swagger so you can check out all Rest API `(/addTask,/deleteTask,/todoList,/updateTask)` with `http://localhost:8080/Igttest/swagger-ui.html`
+
+
