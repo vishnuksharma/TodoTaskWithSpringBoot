@@ -13,6 +13,7 @@ MongoDB for data storage.
 `2.` Download zip file and import into STS as existing maven project. update project dependencies.
 
 `3.` Download war file and deploy file into server.
+
 `4.` Also implemented swagger so you can check out all Rest API `(/addTask,/deleteTask,/todoList,/updateTask)` with `http://localhost:8080/Igttest/swagger-ui.html`
 
 
