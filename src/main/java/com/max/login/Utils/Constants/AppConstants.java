@@ -44,6 +44,15 @@ public interface AppConstants {
 	/** The Constant COLLECTION_TOTASK. */
 	public static final String COLLECTION_TODOTASK = "todotask";
 	
+	/** The Constant COLLECTION_CARD_DETAILS. */
+	public static final String COLLECTION_CARD_DETAILS = "card_details";
+	
+	/** The Constant COLLECTION_FARES_DETAILS. */
+	public static final String COLLECTION_FARES_DETAILS = "fares_details";
+	
+	/** The Constant COLLECTION_FARES_DETAILS. */
+	public static final String COLLECTION_STATION_DETAILS = "station_details";
+	
 	/** The Constant USER_ACCOUNT_TYPE_PREMIUM. */
 	public static final String USER_ACCOUNT_TYPE_PREMIUM = "premium";
 	

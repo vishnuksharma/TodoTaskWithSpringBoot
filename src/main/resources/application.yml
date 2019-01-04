@@ -9,7 +9,7 @@ spring:
     #admin:
      #client:
         #service-url: http://localhost:8091/admin
-     #url: http://localhost:8080
+     #url: http://localhost:8080/Igttest/swagger-ui.html
 #todo: make sure to always enable security in production
 security:
   basic:
